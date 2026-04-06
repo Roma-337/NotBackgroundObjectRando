@@ -32,6 +32,7 @@ namespace NotBackgroundObjectRando{
             if(!NotBackgroundObjectRando.globalSettings.Enabled || !NotBackgroundObjectRando.globalSettings.LockBehindItems)
                 return;
             ItemChangerMod.Modules.GetOrAdd<NborModule>();
+            error;//RandomizerMod TransitionSettings -> UpdateStartLocation...
         }
 
         private static void LogRandoSettings(LogArguments args, TextWriter w) {
@@ -84,7 +85,6 @@ namespace NotBackgroundObjectRando{
         public static string DisplayName(string name) {
             string trimmed = name.Substring(Consts.prefix.Length, name.LastIndexOf('_') - Consts.prefix.Length);
             return trimmed.Substring(0, trimmed.LastIndexOf('_'));
-            //return name.Substring(Consts.prefix.Length, name.LastIndexOf('_') - Consts.prefix.Length);
         }
 
         public static string Clean(string input) {

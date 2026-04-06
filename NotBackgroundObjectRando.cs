@@ -154,10 +154,16 @@ namespace NotBackgroundObjectRando {
 }
 
 //no softlock prevention for reentering dreams
-//stats
 
 //new manual? checks
 //fsm("Crossroads Sign Control") in c01
 //Crossroads_27/Direction Pole Tram/"FSM"
 // --- checked king's pass, crossroads, greenpath, canyon+archive, fungal,
 //      deepnest but only from mlords to super secret
+
+//earlySceneChange fix that one bubble
+//disable background pogos
+//add location type statistics
+//maybe add a place for manual logic
+//maybe examine windy/still grass for matching locations
+//check grassrando compatibility (/ consider interop)
