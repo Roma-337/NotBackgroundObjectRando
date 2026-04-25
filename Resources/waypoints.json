@@ -1,0 +1,10 @@
+[
+  {
+    "name": "City_Bridge_Above_Fountain_Right_Side",
+    "logic": "(Ruins1_18[right1] | (Ruins1_18[left1] + Lever-City_Bridge_Above_Fountain))"
+  },
+  {
+    "name": "City_Bridge_Above_Fountain_Bottom",
+    "logic": "(Ruins1_18[right2])"
+  }
+]
