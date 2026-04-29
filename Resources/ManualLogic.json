@@ -777,6 +777,7 @@
 "name": "BgObj-Crossroads_11_alt_infected_large_blob_030000*[4]_82.53165_10.65319",
 "logic": "Crossroads_11_alt[right1] + DREAMER"
 },
+//kedge to waterways
 {
 "name": "BgObj-Crossroads_11_alt_infected_large_blob_030000_112.924_10.70045",
 "logic": "Crossroads_11_alt[right1] + DREAMER"
