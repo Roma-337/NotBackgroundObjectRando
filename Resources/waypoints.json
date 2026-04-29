@@ -1,4 +1,10 @@
 [
+//general macros
+//add to anything that has "alt Breakeble Pole" or "Breakeble Pole",and maybe to some other things 
+  {
+    "name": "Can_Break_Poles",
+    "logic": "(SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
+  },
 //city brige
   {
     "name": "City_Bridge_Above_Fountain_Right_Side",
@@ -16,6 +22,23 @@
 //love tower
   {
   "name": "Below_Love_Tower",
-  "logic": "((Ruins2_07[left1] | Stag-Flooded_Station + Can_Stag) + (SWIM | RIGHTSKIPACID | (COMPLEXSKIPS + ACIDSKIPS + RIGHTDASH + WINGS + (SPELLAIRSTALL + $CASTSPELL | RIGHTSHARPSHADOW))) | Ruins2_07[top1] | Ruins2_07[right1]+(LEFTCLAW|WINGS|LEFTDASH))"
-  }
+  "logic": "((Ruins2_07[left1] | Stag-Flooded_Station?FALSE + (SWIM | RIGHTSKIPACID | (COMPLEXSKIPS + ACIDSKIPS + RIGHTDASH + WINGS + (SPELLAIRSTALL + $CASTSPELL | RIGHTSHARPSHADOW))) | Ruins2_07[top1] | Ruins2_07[right1]+(LEFTCLAW|WINGS|LEFTDASH))"
+  },
+//kedge to waterways
+  {
+  "name": "Waterways_14_Right",
+  "logic": "(Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL])) | (Waterways_14[bot1] + (ANYCLAW | $SHRIEKPOGO[2]) + (ACID | RIGHTSUPERDASH)) | (Stag-East_Waterways?FALSE + Can_Stag)"
+},
+{
+  "name": "Waterways_14_Middle",
+  "logic": "(Waterways_14[bot1] + (ANYCLAW | $SHRIEKPOGO[2]) + (ACID | RIGHTSUPERDASH)) | (Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL]) + (ACID | LEFTSUPERDASH)) | (Stag-East_Waterways?FALSE + Can_Stag)"
+},
+{
+  "name": "Waterways_14_Left",
+  "logic": "(Waterways_14[bot1] + (ANYCLAW | $SHRIEKPOGO[2])) | (Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL]) + (ACID | LEFTSUPERDASH)) | (Stag-East_Waterways?FALSE + Can_Stag)"
+},
+{
+  "name": "Waterways_14_Top",
+  "logic": "(Waterways_14[bot1] + (ANYCLAW | $SHRIEKPOGO[2]) + (RIGHTSUPERDASH + WINGS + (RIGHTCLAW | LEFTCLAW + ENEMYPOGOS | ENEMYPOGOS + DANGEROUSSKIPS) | ACID + (RIGHTCLAW | LEFTCLAW + WINGS | WINGS + ENEMYPOGOS + DANGEROUSSKIPS))) | (Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL]) + (LEFTSUPERDASH + WINGS + (RIGHTCLAW | LEFTCLAW + ENEMYPOGOS | ENEMYPOGOS + DANGEROUSSKIPS) | ACID + (RIGHTCLAW | LEFTCLAW + WINGS | WINGS + ENEMYPOGOS + DANGEROUSSKIPS))) | (Stag-East_Waterways?FALSE + Can_Stag + (RIGHTSUPERDASH + WINGS + (RIGHTCLAW | LEFTCLAW + ENEMYPOGOS | ENEMYPOGOS + DANGEROUSSKIPS) | ACID + (RIGHTCLAW | LEFTCLAW + WINGS | WINGS + ENEMYPOGOS + DANGEROUSSKIPS))) | (Waterways_14[bot1] + (ANYCLAW | $SHRIEKPOGO[2]) + (RIGHTSUPERDASH | ACID) + (RIGHTCLAW | LEFTCLAW + WINGS) + Collapser-Waterways_Tram_Grub?FALSE) | (Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW) + Collapser-Waterways_Tram_Grub?FALSE)"
+}
 ]
