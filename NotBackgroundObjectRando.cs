@@ -30,4 +30,4 @@ namespace NotBackgroundObjectRando {
 //Incomplete list of locations that dissapear with bench or stag rando
 //BgObj-Fungus1_36_green_grass_1[1]_22,14_2,85 with "stone sactuarry" bench. 
 //Something and a zote bench in city bridge,left of storerooms. 
-//quirrel peak bench/stag.
+//quirrel peak bench/ "Overlook" stag.Apparently everything is reacheble when overlook stag exists.Leaving this note until confirmed there's also no problem with the bench,altho guessing there shouldn't be
