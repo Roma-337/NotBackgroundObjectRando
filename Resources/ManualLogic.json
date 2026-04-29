@@ -615,6 +615,299 @@
 {
   "name": "BgObj-Ruins1_27_break_rag_69.98_7.44",
   "logic": "(Ruins1_27[left1] + (RIGHTCLAW + (WINGS | $SLOPEBALL[before:AREASOUL,after:ROOMSOUL]) | LEFTCLAW + RIGHTSUPERDASH + $SHRIEKPOGO[before:AREASOUL,after:AREASOUL] | LEFTCLAW + RIGHTDASH + $SHRIEKPOGO[1.1,before:AREASOUL,after:AREASOUL] | RIGHTDASH + PRECISEMOVEMENT + $SHRIEKPOGO[3,before:AREASOUL,after:AREASOUL] | $SHRIEKPOGO[4,before:AREASOUL,after:AREASOUL,NOLEFTSTALL]))|Lever-City_Fountain?FALSE)|Ruins1_27[right1]"
+},
+//crossroads to greenpath
+{
+"name": "BgObj-Crossroads_11_alt_Fungus_Fat_pole_[1]*10.93998_18.10889",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Fungus_Fat_pole_27.61839_18.17",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Fungus_simple_pole_28.9926_18.39083",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Breakable_Pole_1_65.65_11.08",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Breakable_Pole_2_55.42_10.28",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_1*[1]*21.69_17.95",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_1*[2]*9.01_18.05",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_3*[1]*23.85_17.9",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_3*[3]*8.23_5.87",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_3_45.63_16.97",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[1]*7.6_17.92",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[10]*11.44_6.01",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[12]*29.31_6.78",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[13]*49.43_6.1",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[14]*48.88_6.12",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[15]*69.52_11.01",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[16]*9.89_6.01",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[2]*6.5_17.92",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[3]*17.81_17.84",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[4]*19.97_17.75",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[5]*24.16_17.81",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[7]*43.31_17.06",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[8]*21.72_6.07",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_simple_grass*[9]*23.54_6.01",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[1]*7.76_24.16",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[2]*2.94_20.49",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[3]*5.72_12.57",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[4]*12.68_7.78",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[5]*7.66_13.01",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut*[6]*16.64_9.76",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_fung_vine_cut_27.76448_21.84856",
+"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Breakable_Pole_3_88.09_11.24",
+"logic": "Crossroads_11_alt[right1]"
+},
+{
+"name": "BgObj-Crossroads_11_alt_Breakable_Pole_4_95.64_12.38",
+"logic": "Crossroads_11_alt[right1]"
+},
+{
+"name": "BgObj-Crossroads_11_alt_green_grass_1_103.67_11.1",
+"logic": "Crossroads_11_alt[right1]"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_020000*[1]*108.36_10.34",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_020000_114.78_11.37481",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_030000*[1]*113.49_6.639999",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_030000*[2]*114.41_19.51",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_030000*[3]*113.1416_18.44319",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_030000*[4]_82.53165_10.65319",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+"name": "BgObj-Crossroads_11_alt_infected_large_blob_030000_112.924_10.70045",
+"logic": "Crossroads_11_alt[right1] + DREAMER"
+},
+{
+  "name": "BgObj-Waterways_14_crystals_231.733_20.41604",
+  "logic": "Waterways_14_Right"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_break_pipe_angle_25.92432_19.65142",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_break_pipe_bend_42.21_20.75",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_break_pipe_sphere_55.03_22.3",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_lamp_[1]_33.59_24.45",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_lamp_[2]_14.59_20.49",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_lamp_44.15_24.45",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_break_rag_[1]_93.67_21.25",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_break_rag_[3]_57.09_24.47",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_break_rag_[5]_13.01_20.58",
+  "logic": "Waterways_14_Left"
+},
+{
+  "name": "BgObj-Waterways_14_break_rag_96.4_20.41",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_break_rag_[6]_5.1_6.82",
+  "logic": "Waterways_14[bot1] | Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL]) + (ACID | LEFTSUPERDASH) | Stag-East_Waterways?FALSE + Can_Stag"
+},
+{
+  "name": "BgObj-Waterways_14_waterways_break_pipe_bulge_16.55612_4.78",
+  "logic": "Waterways_14[bot1] | Waterways_14[bot2] + (RIGHTCLAW | WINGS + LEFTCLAW | $SHRIEKPOGO[before:ITEMSOUL]) + (ACID | LEFTSUPERDASH) | Stag-East_Waterways?FALSE + Can_Stag"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[1]_194.35_38.91",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[2]_188.39_38.27",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[3]_202.18_38.56",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[4]_200.29_39.35",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_195.66_39.14",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[10]_236.63_39.5",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[11]_240.33_38.85",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[12]_241.76_38.7",
+  "logic": "Waterways_14_Top"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[5]_195.79_24.23",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[6]_193.16_21.77",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[7]_192.04_21.08",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[8]_205.96_21.12",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[9]_204.68_21.51",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[14]_168.55_21.05",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[15]_171.62_20.92",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[16]_161.55_22.15",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[17]_160.05_21.23",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[18]_157.75_20.77",
+  "logic": "Waterways_14_Middle"
+},
+{
+  "name": "BgObj-Waterways_14_hanging_cords_01_[19]_148.79_20.77",
+  "logic": "Waterways_14_Middle"
 }
 ]
 
