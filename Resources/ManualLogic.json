@@ -639,31 +639,31 @@
 //resting grounds
  {
     "location": "BgObj-RestingGrounds_02_grave_round_top_pole_86.5_11.35",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_short_pole_[1]_114_11.29",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_short_pole_85.1_11.15",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_spiral_break_115.96_11.29",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[3]_80.8_10.69",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[4]_91.06_10.8",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[6]_109.11_10.8",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
   },
  //soul sanctum,rightmost
    {
