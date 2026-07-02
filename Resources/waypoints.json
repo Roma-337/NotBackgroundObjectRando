@@ -2,6 +2,7 @@
   //general macros
   //add to anything that has "alt Breakeble Pole" or "Breakeble Pole",and maybe to some other things.
   //The marco below also lacks sharp shadow directions,and maybe shade soul
+  /*
   {
     "name": "Can_Break_Poles",
     "logic": "(SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
@@ -10,6 +11,7 @@
     "name": "ANYNAILLENGTH",
     "logic": "(LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH)"
   },
+  */
   //kedge to waterways
   {
     "name": "Waterways_14_Right",
