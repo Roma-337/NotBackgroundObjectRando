@@ -2,11 +2,11 @@
   //crossroads to fungal
   {
     "location": "BgObj-Crossroads_18_Breakable_Pole_2_3.55_28.15",
-    "logic": "Crossroads_18"
+    "logic": "Crossroads_18 + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Crossroads_18_Breakable_Pole_37.21_36.42",
-    "logic": "Crossroads_18"
+    "logic": "Crossroads_18 + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Crossroads_18_Crossroads_Statue_Horned_1_11.31_6.22",
@@ -22,7 +22,7 @@
   },
   {
     "location": "BgObj-Crossroads_18_Direction_Pole_City_14.07659_42.38",
-    "logic": "Crossroads_18"
+    "logic": "Crossroads_18 + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Crossroads_18_Fungus_Mushroom_01_[1]_9.34_5.59",
@@ -46,11 +46,11 @@
   },
   {
     "location": "BgObj-Crossroads_18_Greenpath_Pole_[1]_30.98_3.73",
-    "logic": "Crossroads_18"
+    "logic": "Crossroads_18 + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Crossroads_18_Greenpath_Pole_7.16_6.72",
-    "logic": "Crossroads_18"
+    "logic": "Crossroads_18 + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Crossroads_18_infected_large_blob_010000_39.23637_35.29359",
@@ -410,11 +410,11 @@
   },
   {
     "location": "BgObj-Ruins1_17_ruin_pole_knob_[1]_31.43_4.12",
-    "logic": "Ruins1_17[top1]"
+    "logic": "Ruins1_17[top1] + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_17_ruin_pole_knob_53.63_4.12",
-    "logic": "Ruins1_17[top1]"
+    "logic": "Ruins1_17[top1] + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_17_ruind_dressing_light_03_[1]_67.49_6.9",
@@ -467,19 +467,19 @@
   },
   {
     "location": "BgObj-Ruins1_18_ruin_pole_knob_[1]_41.33_21.11906",
-    "logic": "City_Bridge_Above_Fountain_Right_Side"
+    "logic": "City_Bridge_Above_Fountain_Right_Side + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_18_ruin_pole_knob_[2]_58.97_21.11906",
-    "logic": "City_Bridge_Above_Fountain_Right_Side"
+    "logic": "City_Bridge_Above_Fountain_Right_Side + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_18_ruin_pole_knob_[3]_69.32_21.11906",
-    "logic": "City_Bridge_Above_Fountain_Right_Side"
+    "logic": "City_Bridge_Above_Fountain_Right_Side + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_18_ruin_pole_knob_33.73_21.11906",
-    "logic": "City_Bridge_Above_Fountain_Right_Side"
+    "logic": "City_Bridge_Above_Fountain_Right_Side + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_18_ruind_dressing_light_02_[1]_37.63_24.42",
@@ -524,15 +524,15 @@
   },
   {
     "location": "BgObj-Ruins1_27_Ruins_pole_wrought_seal_[1]_3.55059_6.132333",
-    "logic": "Ruins1_27[left1]"
+    "logic": "Ruins1_27[left1] + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_27_Ruins_pole_wrought_seal_49.91553_24.37178",
-    "logic": "Ruins1_27[left1] + ((RIGHTCLAW + (WINGS | $SLOPEBALL[before:AREASOUL,after:ROOMSOUL]) | LEFTCLAW + RIGHTSUPERDASH + $SHRIEKPOGO[before:AREASOUL,after:AREASOUL] | LEFTCLAW + RIGHTDASH + $SHRIEKPOGO[1,1,before:AREASOUL,after:AREASOUL] | RIGHTDASH + PRECISEMOVEMENT + $SHRIEKPOGO[3,before:AREASOUL,after:AREASOUL] | $SHRIEKPOGO[4,before:AREASOUL,after:AREASOUL,NOLEFTSTALL])|Lever-City_Fountain?FALSE+(ANYCLAW|WINGS))|Ruins1_27[right1]+(ANYCLAW|WINGS)"
+    "logic": "(Ruins1_27[left1] + ((RIGHTCLAW + (WINGS | $SLOPEBALL[before:AREASOUL,after:ROOMSOUL]) | LEFTCLAW + RIGHTSUPERDASH + $SHRIEKPOGO[before:AREASOUL,after:AREASOUL] | LEFTCLAW + RIGHTDASH + $SHRIEKPOGO[1,1,before:AREASOUL,after:AREASOUL] | RIGHTDASH + PRECISEMOVEMENT + $SHRIEKPOGO[3,before:AREASOUL,after:AREASOUL] | $SHRIEKPOGO[4,before:AREASOUL,after:AREASOUL,NOLEFTSTALL])|Lever-City_Fountain?FALSE+(ANYCLAW|WINGS))|Ruins1_27[right1]+(ANYCLAW|WINGS)) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_27_Ruins_pole_wrought_spiral_50.83317_24.31756",
-    "logic": "Ruins1_27[left1] + ((RIGHTCLAW + (WINGS | $SLOPEBALL[before:AREASOUL,after:ROOMSOUL]) | LEFTCLAW + RIGHTSUPERDASH + $SHRIEKPOGO[before:AREASOUL,after:AREASOUL] | LEFTCLAW + RIGHTDASH + $SHRIEKPOGO[1,1,before:AREASOUL,after:AREASOUL] | RIGHTDASH + PRECISEMOVEMENT + $SHRIEKPOGO[3,before:AREASOUL,after:AREASOUL] | $SHRIEKPOGO[4,before:AREASOUL,after:AREASOUL,NOLEFTSTALL])|Lever-City_Fountain?FALSE+(ANYCLAW|WINGS))|Ruins1_27[right1]+(ANYCLAW|WINGS)"
+    "logic": "(Ruins1_27[left1] + ((RIGHTCLAW + (WINGS | $SLOPEBALL[before:AREASOUL,after:ROOMSOUL]) | LEFTCLAW + RIGHTSUPERDASH + $SHRIEKPOGO[before:AREASOUL,after:AREASOUL] | LEFTCLAW + RIGHTDASH + $SHRIEKPOGO[1,1,before:AREASOUL,after:AREASOUL] | RIGHTDASH + PRECISEMOVEMENT + $SHRIEKPOGO[3,before:AREASOUL,after:AREASOUL] | $SHRIEKPOGO[4,before:AREASOUL,after:AREASOUL,NOLEFTSTALL])|Lever-City_Fountain?FALSE+(ANYCLAW|WINGS))|Ruins1_27[right1]+(ANYCLAW|WINGS)) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-Ruins1_27_Ruins_Trophy_66.1_15.51",
@@ -639,31 +639,31 @@
 //resting grounds
  {
     "location": "BgObj-RestingGrounds_02_grave_round_top_pole_86.5_11.35",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "((RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + SIDESLASH) | GREATSLASH)))))) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_short_pole_[1]_114_11.29",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "((RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESLASH) | GREATSLASH)))))) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_short_pole_85.1_11.15",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "((RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + SIDESLASH) | GREATSLASH)))))) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_spiral_break_115.96_11.29",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((LONGMARK + SIDESLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[3]_80.8_10.69",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + SIDESLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[4]_91.06_10.8",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + SIDESLASH) | GREATSLASH)))))"
   },
   {
     "location": "BgObj-RestingGrounds_02_grave_stone_break_[6]_109.11_10.8",
-    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + ((ANYNAILLENGTH + SIDESSLASH) | GREATSLASH)))))"
+    "logic": "(RestingGrounds_02[top1] | RestingGrounds_02 + (ANYCLAW | WINGS | RIGHTSUPERDASH | BACKGROUNDPOGOS)) | ((RestingGrounds_02[right1] | RestingGrounds_02[left1] | RestingGrounds_02[bot1]) + ((UPSLASH) | ((OBSCURESKIPS + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + SIDESLASH) | GREATSLASH)))))"
   },
  //soul sanctum,rightmost
    {
@@ -737,7 +737,7 @@
   },
   {
     "location": "BgObj-Ruins1_25_Ruins_Vial_Full_Small_21.00859_78.82359",
-    "logic": "Ruins1_25[left1] + ((ANYNAILLENGTH + (LEFTSLASH | LEFTDASH) + OBSCURESKIPS) | (ANYCLAW | WINGS) | Lever-Sanctum_East?FALSE + ENEMYPOGOS) | Ruins1_25[left2] + (ANYCLAW | WINGS | ENEMYPOGOS | Lever-Sanctum_East?FALSE + (ANYNAILLENGTH + (LEFTSLASH | LEFTDASH) + OBSCURESKIPS)) | Ruins1_25[left3] + (ANYCLAW | WINGS)"
+    "logic": "Ruins1_25[left1] + (((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + (LEFTSLASH | LEFTDASH) + OBSCURESKIPS) | (ANYCLAW | WINGS) | Lever-Sanctum_East?FALSE + ENEMYPOGOS) | Ruins1_25[left2] + (ANYCLAW | WINGS | ENEMYPOGOS | Lever-Sanctum_East?FALSE + ((LONGNAIL | MARKOFPRIDE | CYCLONE | GREATSLASH | DASHSLASH) + (LEFTSLASH | LEFTDASH) + OBSCURESKIPS)) | Ruins1_25[left3] + (ANYCLAW | WINGS)"
   },
 
   {
@@ -764,23 +764,23 @@
 //crossroads to greenpath
 {
 "location": "BgObj-Crossroads_11_alt_Fungus_Fat_pole_[1]*10.93998_18.10889",
-"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+"logic": "(Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_Fungus_Fat_pole_27.61839_18.17",
-"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+"logic": "(Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_Fungus_simple_pole_28.9926_18.39083",
-"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+"logic": "(Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_Breakable_Pole_1_65.65_11.08",
-"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+"logic": "(Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_Breakable_Pole_2_55.42_10.28",
-"logic": "Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur"
+"logic": "(Crossroads_11_alt[left1] | Crossroads_11_alt[right1] + Defeated_Crossroads_Baldur) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_green_grass_1*[1]*21.69_17.95",
@@ -888,11 +888,11 @@
 },
 {
 "location": "BgObj-Crossroads_11_alt_Breakable_Pole_3_88.09_11.24",
-"logic": "Crossroads_11_alt[right1]"
+"logic": "Crossroads_11_alt[right1] + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_Breakable_Pole_4_95.64_12.38",
-"logic": "Crossroads_11_alt[right1]"
+"logic": "Crossroads_11_alt[right1] + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
 },
 {
 "location": "BgObj-Crossroads_11_alt_green_grass_1_103.67_11.1",
@@ -1121,6 +1121,6 @@
  //right elevator top
  {
  "location": "BgObj-Ruins2_10_Stag_Pole_Tall_Break_[2]_25.09_162.28",
- "logic": "(Ruins2_10[right1])"
+ "logic": "(Ruins2_10[right1]) + (SIDESLASH | CYCLONE | GREATSLASH | LEFTDASHSLASH | RIGHTDASHSLASH)"
  }
 ]
